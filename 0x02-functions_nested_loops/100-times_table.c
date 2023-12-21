@@ -19,15 +19,14 @@ void print_times_table(int n)
 			{
 				i = row * column;
 
-				if (i <= 9)
+				if (column == 0)
+					_putchar('0');
+				else if (i <= 9)
 				{
-					if (column != 0)
-					{
-						_putchar(',');
-						_putchar(' ');
-						_putchar(' ');
-						_putchar(' ');
-					}
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
 					_putchar(i + '0');
 				}
 				else if ( i > 9 && i < 100)
