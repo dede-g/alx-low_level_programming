@@ -19,8 +19,8 @@ void print_times_table(int n)
 			{
 				prnt_format(row, column);
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
 
