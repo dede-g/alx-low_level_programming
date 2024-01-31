@@ -10,12 +10,12 @@
 
 int main(void)
 {
-	unsigned int a = 0, b = 1, i, sum;
+	unsigned int long a = 0, b = 1, i, sum;
 
 	for (i  = 0; i < 50; i++)
 	{
 		sum = a + b;
-		printf("%u", sum);
+		printf("%lu", sum);
 		if (i != 49)
 			printf(", ");
 
